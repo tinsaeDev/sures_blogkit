@@ -1,0 +1,13 @@
+.bg-1 {
+  background: url("../images/bg/home-2.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+  @extend .overly;
+}
+
+.bg-2 {
+  background: url("../images/bg/home-5.jpg");
+  background-size: cover;
+}

@@ -1,0 +1,101 @@
+.body {
+  background-color: black !important;
+}
+
+.timeline-carousel {
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.timeline-slide1 {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  height: 8rem;
+}
+
+.slide-border {
+  border-top: 3px solid #65a8dc;
+  flex: 1;
+}
+
+.year {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid #65a8dc;
+  width: 2rem;
+  height: 2rem;
+  transition: width, height;
+  transition-duration: 1s;
+  cursor: pointer;
+  color: white;
+  background-color: #65a8dc;
+}
+
+.year:hover {
+  color: white;
+  background-color: #65a8dc;
+}
+
+.active-slide {
+  width: 7rem;
+  height: 7rem;
+  color: white;
+  background-color: #65a8dc;
+}
+
+.adjacent {
+  width: 4rem;
+  height: 4rem;
+}
+
+.text-year {
+  opacity: 0;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.active-year {
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: #65a8dc;
+  z-index: 100;
+  color: white;
+}
+
+.next {
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.prev {
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.border-red {
+  border: 2px solid red;
+}
+
+.border-blue {
+  border: 2px solid blue;
+}
