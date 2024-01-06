@@ -1,5 +1,6 @@
 import { useState } from "react";
 import FirstBox from "../components/Jumbotron/First";
+import Slider from "./componets/Slider";
 
 export default function HomePage() {
   const [show, setShow] = useState(false);
@@ -7,23 +8,25 @@ export default function HomePage() {
   const [show2, setShow2] = useState(false);
   return (
     <>
-      <section className="slider">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-9 col-md-10">
-              <div className="block">
-                <span className="d-block mb-3 text-white text-capitalize">
-                  Prepare for new future
-                </span>
-                <h1 className="animated fadeInUp mb-5">
-                  Our work is <br />
-                  presentation of our <br />
-                  capabilities.
-                </h1>
+      <section>
+        <Slider className="slider" src="/images/bg/home-1.jpg">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-9 col-md-10">
+                <div className="block">
+                  <span className="d-block mb-3 text-white text-capitalize">
+                    Prepare for new future
+                  </span>
+                  <h1 className="animated fadeInUp mb-5">
+                    Our work is <br />
+                    presentation of our <br />
+                    capabilities.
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </Slider>
       </section>
 
       {/* <section className="section">
