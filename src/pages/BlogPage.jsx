@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import BlogCard from "../components/BlogCard";
-import SideBar from "../components/SideBar";
-import { client } from "../lib/clients";
-import FirstBox from "../components/Jumbotron/First";
+import  { useEffect, useState } from 'react';
+import BlogCard from '../components/BlogCard';
+import SideBar from '../components/SideBar';
+import { client } from '../lib/clients';
+import FirstBox from '../components/Jumbotron/First';
 
 export default function BlogPage() {
-  const [searchInput, setSearchInput] = useState("");
+  const [searchInput, setSearchInput] = useState('');
   const [filteredStories, setFilteredStories] = useState([]);
   const [allStories, setAllStories] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -27,7 +27,7 @@ export default function BlogPage() {
             alt,
           },
           "name": author -> name,
-        } | order(publishedAt desc)`
+        } | order(publishedAt desc)`,
       )
       .then((data) => {
         setAllStories(data);
@@ -42,9 +42,7 @@ export default function BlogPage() {
   }, [currentPage, allStories]);
 
   const handleSearch = () => {
-    const filtered = allStories.filter((story) =>
-      story.title.toLowerCase().includes(searchInput.toLowerCase())
-    );
+    const filtered = allStories.filter((story) => story.title.toLowerCase().includes(searchInput.toLowerCase()));
     setFilteredStories(filtered);
     setCurrentPage(1);
   };
@@ -53,14 +51,32 @@ export default function BlogPage() {
     <div>
       <div className="main-wrapper">
         <section className="page-title bg-1">
-          <div className="container">
+          <img
+            src="../images/bg/home-2.jpeg"
+            style={{
+              visibility: 'hidden',
+              width: '100%',
+              height: 'auto',
+            }}
+          />
+          <div
+            className="container"
+            style={{
+              position: 'absolute',
+              top: 0,
+              width: '100%',
+              height: '100%',
+              maxWidth: '100%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent:"center"
+            }}
+          >
             <div className="row">
               <div className="col-md-12">
                 <div className="block text-center">
                   <span className="text-white">Our Blog</span>
-                  <h1 className="text-capitalize mb-4 text-lg">
-                    Blog Artikelen
-                  </h1>
+                  <h1 className="text-capitalize mb-4 text-lg">Blog Artikelen</h1>
                   <ul className="list-inline">
                     <li className="list-inline-item">
                       <a href="index.html" className="text-white">
@@ -91,11 +107,7 @@ export default function BlogPage() {
             <div className="row">
               <div className="col-lg-8">
                 <div className="row">
-                  <BlogCard
-                    stories={
-                      filteredStories.length > 0 ? filteredStories : allStories
-                    }
-                  />
+                  <BlogCard stories={filteredStories.length > 0 ? filteredStories : allStories} />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -107,24 +119,18 @@ export default function BlogPage() {
                       placeholder="search"
                       onChange={(e) => setSearchInput(e.target.value)}
                     />
-                    <button
-                      onClick={handleSearch}
-                      className="btn btn-mian btn-small d-block mt-2"
-                    >
+                    <button onClick={handleSearch} className="btn btn-mian btn-small d-block mt-2">
                       search
                     </button>
                   </div>
-                  <div
-                    className="w-100 mb-5"
-                    style={{ height: "250px", backgroundColor: "#fff" }}
-                  >
+                  <div className="w-100 mb-5" style={{ height: '250px', backgroundColor: '#fff' }}>
                     <img
                       src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                       alt="img1"
                       style={{
-                        width: "100%",
-                        height: "80%",
-                        objectFit: "cover",
+                        width: '100%',
+                        height: '80%',
+                        objectFit: 'cover',
                       }}
                     />
                     <div>
@@ -160,11 +166,7 @@ export default function BlogPage() {
               <div className="col-lg-8">
                 <nav aria-label="...">
                   <ul className="pagination">
-                    <li
-                      className={`page-item ${
-                        currentPage === 1 ? "disabled" : ""
-                      }`}
-                    >
+                    <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
                       <button
                         className="btn  btn-small btn-main   page-link  mr-2 page-numbers"
                         onClick={() => setCurrentPage(currentPage - 1)}
@@ -173,42 +175,28 @@ export default function BlogPage() {
                         Prev
                       </button>
                     </li>
-                    {Array.from(
-                      { length: Math.ceil(allStories.length / storiesPerPage) },
-                      (_, index) => (
-                        <li
-                          className={`page-item ${
-                            currentPage === index + 1 ? "active" : ""
+                    {Array.from({ length: Math.ceil(allStories.length / storiesPerPage) }, (_, index) => (
+                      <li className={`page-item ${currentPage === index + 1 ? 'active' : ''}`} key={index}>
+                        <button
+                          className={`btn  btn-small btn-main  page-link page-numbers ${
+                            currentPage === index + 1 ? 'current' : ''
                           }`}
-                          key={index}
+                          style={{ backgroundColor: '#65A8DC' }}
+                          onClick={() => setCurrentPage(index + 1)}
                         >
-                          <button
-                            className={`btn  btn-small btn-main  page-link page-numbers ${
-                              currentPage === index + 1 ? "current" : ""
-                            }`}
-                            style={{ backgroundColor: "#65A8DC" }}
-                            onClick={() => setCurrentPage(index + 1)}
-                          >
-                            {index + 1}
-                          </button>
-                        </li>
-                      )
-                    )}
+                          {index + 1}
+                        </button>
+                      </li>
+                    ))}
                     <li
                       className={`page-item ${
-                        currentPage ===
-                        Math.ceil(allStories.length / storiesPerPage)
-                          ? "disabled"
-                          : ""
+                        currentPage === Math.ceil(allStories.length / storiesPerPage) ? 'disabled' : ''
                       }`}
                     >
                       <button
                         className="btn  btn-small btn-main  page-link rounded text-black"
                         onClick={() => setCurrentPage(currentPage + 1)}
-                        disabled={
-                          currentPage ===
-                          Math.ceil(allStories.length / storiesPerPage)
-                        }
+                        disabled={currentPage === Math.ceil(allStories.length / storiesPerPage)}
                       >
                         Next
                       </button>
