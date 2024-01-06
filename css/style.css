@@ -271,6 +271,7 @@ input[type="tel"]:focus {
 
 .overly:before,
 .page-title:before,
+.slider:before,
 .cta:before,
 .hero-img:before {
   content: "";
@@ -565,7 +566,7 @@ ul.dropdown-menu li {
 
 .bg-1 {
   background: url("../images/bg/home-2.jpeg") no-repeat;
-  background-size: center;
+  background-size: cover;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
@@ -577,7 +578,11 @@ ul.dropdown-menu li {
 }
 
 .slider {
-  
+  background: url("../images/bg/home-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
 }
 
 .slider .block h1 {
