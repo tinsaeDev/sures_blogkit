@@ -185,7 +185,9 @@ export default function SingleBlog() {
   return (
     <>
      <section className="page-title bg-1">
-        <div className="container">
+        <div className="container"
+        
+        >
             <div className="row">
               <div className="col-md-12">
                 <div className="block text-center">
