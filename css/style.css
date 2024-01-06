@@ -8,7 +8,7 @@ html {
 
 body {
   line-height: 1.5;
-  font-family: "Hind", serif;
+  font-family: 'Hind', serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.65);
@@ -26,7 +26,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   color: #242424;
 }
@@ -72,20 +72,20 @@ p {
   background: #0275d8;
 }
 
-input[type="email"],
-input[type="password"],
-input[type="text"],
-input[type="tel"] {
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='tel'] {
   box-shadow: none;
   height: 45px;
   outline: none;
   font-size: 14px;
 }
 
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus {
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='text']:focus,
+input[type='tel']:focus {
   box-shadow: none;
   border: 1px solid #0275d8;
 }
@@ -225,11 +225,7 @@ input[type="tel"]:focus {
 }
 
 .bg-gradient {
-  background-image: linear-gradient(
-    145deg,
-    rgba(19, 177, 205, 0.95) 0%,
-    rgba(152, 119, 234, 0.95) 100%
-  );
+  background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, rgba(152, 119, 234, 0.95) 100%);
   background-repeat: repeat-x;
 }
 
@@ -252,7 +248,7 @@ input[type="tel"]:focus {
 
 .section-title p {
   color: #666;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .subtitle {
@@ -274,7 +270,7 @@ input[type="tel"]:focus {
 .slider:before,
 .cta:before,
 .hero-img:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -297,7 +293,7 @@ input[type="tel"]:focus {
 .bg-counter:before,
 .cta-block:before,
 .latest-blog:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -414,7 +410,7 @@ a:focus {
 }
 
 #wrapper-work ul li .items-text h2:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -456,7 +452,7 @@ a:focus {
 }
 
 #navbar .nav-link {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   color: #0275d8;
   text-transform: uppercase;
@@ -520,16 +516,30 @@ a:focus {
   visibility: hidden;
   filter: alpha(opacity=0);
   opacity: 0;
-  transition: all 0.2s ease-in, visibility 0s linear 0.2s,
+  transition:
+    all 0.2s ease-in,
+    visibility 0s linear 0.2s,
     -webkit-transform 0.2s linear;
-  transition: all 0.2s ease-in, visibility 0s linear 0.2s, transform 0.2s linear;
-  transition: all 0.2s ease-in, visibility 0s linear 0.2s, transform 0.2s linear,
+  transition:
+    all 0.2s ease-in,
+    visibility 0s linear 0.2s,
+    transform 0.2s linear;
+  transition:
+    all 0.2s ease-in,
+    visibility 0s linear 0.2s,
+    transform 0.2s linear,
     -webkit-transform 0.2s linear;
-  -webkit-transition: all 0.2s ease-in, visibility 0s linear 0.2s,
+  -webkit-transition:
+    all 0.2s ease-in,
+    visibility 0s linear 0.2s,
     -webkit-transform 0.2s linear;
-  -o-transition: all 0.2s ease-in, visibility 0s linear 0.2s,
+  -o-transition:
+    all 0.2s ease-in,
+    visibility 0s linear 0.2s,
     -o-transform 0.2s linear;
-  -ms-transition: all 0.2s ease-in, visibility 0s linear 0.2s,
+  -ms-transition:
+    all 0.2s ease-in,
+    visibility 0s linear 0.2s,
     -ms-transform 0.2s linear;
   width: 250px;
   margin-top: 15px;
@@ -565,25 +575,23 @@ ul.dropdown-menu li {
 }
 
 .bg-1 {
-  background: url("../images/bg/home-2.jpeg") no-repeat;
+  background: url('../images/bg/home-2.jpeg') no-repeat;
   background-size: 100% auto;
   background-position: 0% 0%;
   /* padding: 200px 0 280px 0; */
   position: relative;
-  min-height: 57rem;
-  
 }
 
 .bg-2 {
-  background: url("../images/bg/home-5.jpg");
+  background: url('../images/bg/home-5.jpg');
   background-size: cover;
 }
 
 .slider {
-  background: url("../images/bg/home-1.jpg") no-repeat;
-  background-size: cover;
+  background: url('../images/bg/home-1.jpg') no-repeat;
+  background-size: 100% auto;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  /* padding: 200px 0 280px 0; */
   position: relative;
 }
 
@@ -629,12 +637,12 @@ ul.dropdown-menu li {
 
 .bg-about {
   position: absolute;
-  content: "";
+  content: '';
   left: 0px;
   top: 0px;
   width: 45%;
   min-height: 650px;
-  background: url("../images/about/home-8.jpg") no-repeat;
+  background: url('../images/about/home-8.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -648,8 +656,8 @@ ul.dropdown-menu li {
 
 .about-content h4:before {
   position: absolute;
-  content: "\f576";
-  font-family: "Font Awesome 5 Free";
+  content: '\f576';
+  font-family: 'Font Awesome 5 Free';
   font-size: 30px;
   position: absolute;
   top: 8px;
@@ -666,7 +674,7 @@ ul.dropdown-menu li {
 }
 
 .bg-counter {
-  background: url("../images/bg/counter.jpg") no-repeat;
+  background: url('../images/bg/counter.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -754,13 +762,13 @@ ul.dropdown-menu li {
 }
 
 .cta {
-  background: url("../images/bg/home-3.jpg") fixed 50% 50%;
+  background: url('../images/bg/home-3.jpg') fixed 50% 50%;
   background-size: cover;
   padding: 120px 0px;
 }
 
 .cta-block {
-  background: url("../images/bg/home-3.jpg") no-repeat;
+  background: url('../images/bg/home-3.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -794,9 +802,9 @@ ul.dropdown-menu li {
 }
 
 .hero-img {
-  background: url("../images/bg/home-5.jpg");
+  background: url('../images/bg/home-5.jpg');
   position: absolute;
-  content: "";
+  content: '';
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -826,7 +834,7 @@ ul.dropdown-menu li {
 
 .portflio-item .portfolio-item-content {
   position: absolute;
-  content: "";
+  content: '';
   right: 0px;
   bottom: 0px;
   opacity: 0;
@@ -835,7 +843,7 @@ ul.dropdown-menu li {
 
 .portflio-item:before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0px;
   top: 0px;
   width: 100%;
@@ -858,7 +866,7 @@ ul.dropdown-menu li {
 
 .portflio-item .overlay-item {
   position: absolute;
-  content: "";
+  content: '';
   left: 0px;
   top: 0px;
   bottom: 0px;
@@ -984,7 +992,7 @@ h3.quote {
 }
 
 h3.quote::before {
-  content: "";
+  content: '';
   width: 55px;
   height: 2px;
   background: #0275d8;

@@ -8,7 +8,26 @@ export default function HomePage() {
   return (
     <>
       <section className="slider">
-        <div className="container">
+        <img
+          src="../images/bg/home-1.jpg"
+          style={{
+            visibility: 'hidden',            
+            width: '100%',
+            height: 'auto',
+          }}
+        />
+        <div
+          className="container"
+          style={{
+            position: 'absolute',
+            top: 0,
+            width: '100%',
+            height: '100%',
+            maxWidth: '100%',
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
           <div className="row">
             <div className="col-lg-9 col-md-10">
               <div className="block">
