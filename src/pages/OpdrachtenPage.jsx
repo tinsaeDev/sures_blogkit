@@ -1,8 +1,8 @@
-import TimelineCarousel from '../components/TimelineCarousel';
-import FirstBox from '../components/Jumbotron/First';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import TimelineCarousel from "../components/TimelineCarousel";
+import FirstBox from "../components/Jumbotron/First";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Opdrachten() {
   const setting = {
@@ -36,19 +36,18 @@ export default function Opdrachten() {
 
   return (
     <div className="main-wrapper ">
-      <section className="page-title bg-1">
-        <img
-          src="../images/bg/home-2.jpeg"
+      <section className="page-title bg-Opdrachten">
+
+      <img
+          src="../images/bg/Opdrachten.jpeg"
           style={{
             visibility: 'hidden',
             width: '100%',
             height: 'auto',
           }}
         />
-
-        <div
-          className="container"
-          style={{
+        
+        <div className="container"           style={{
             position: 'absolute',
             top: 0,
             width: '100%',
@@ -57,13 +56,14 @@ export default function Opdrachten() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-          }}
-        >
+          }}>
           <div className="row">
             <div className="col-md-12">
               <div className="block text-center">
                 <span className="text-white">Latest works</span>
-                <h1 className="text-capitalize mb-4 text-lg">Portefeuille Opdrachten</h1>
+                <h1 className="text-capitalize mb-4 text-lg">
+                  Portefeuille Opdrachten
+                </h1>
                 <ul className="list-inline">
                   <li className="list-inline-item">
                     <a href="index.html" className="text-white">
@@ -131,7 +131,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
 
@@ -141,7 +141,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
 
@@ -151,7 +151,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
 
@@ -161,7 +161,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div style={{ width: 200 }}>
@@ -170,7 +170,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
 
@@ -180,7 +180,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
 
@@ -190,7 +190,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
 
@@ -200,7 +200,7 @@ export default function Opdrachten() {
               alt="img1"
               width="100%"
               height={100}
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: "contain" }}
             />
           </div>
         </Slider>

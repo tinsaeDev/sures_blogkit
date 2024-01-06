@@ -1,9 +1,9 @@
 export default function BlogAdmin() {
   return (
     <div className="main-wrapper ">
-      <section className="page-title bg-1">
+      <section className="page-title bg-BlogAdmin">
         <img
-          src="../images/bg/home-2.jpeg"
+          src="../images/bg/BlogAdmin.jpeg"
           style={{
             visibility: 'hidden',
             width: '100%',

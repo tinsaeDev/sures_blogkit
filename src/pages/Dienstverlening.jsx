@@ -3,9 +3,9 @@ import FirstBox from '../components/Jumbotron/First';
 export default function Dienstverlening() {
   return (
     <div className="main-wrapper ">
-      <section className="page-title bg-1">
+      <section className="page-title bg-Dienstverlening">
         <img
-          src="../images/bg/home-2.jpeg"
+          src="../images/bg/Dienstverlening.jpeg"
           style={{
             visibility: 'hidden',
             width: '100%',

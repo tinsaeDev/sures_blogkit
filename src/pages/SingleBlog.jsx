@@ -176,9 +176,9 @@ export default function SingleBlog() {
   const renderedComments = comments.slice(0, 4);
   return (
     <>
-      <section className="page-title bg-1">
+      <section className="page-title bg-SingleBlog">
         <img
-          src="../images/bg/home-2.jpeg"
+          src="../images/bg/bg-SingleBlog.jpeg"
           style={{
             visibility: 'hidden',
             width: '100%',

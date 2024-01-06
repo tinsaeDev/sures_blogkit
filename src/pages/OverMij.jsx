@@ -3,9 +3,9 @@ import FirstBox from '../components/Jumbotron/First';
 export default function OverMij() {
   return (
     <div className="main-wrapper ">
-      <section className="page-title bg-1">
+      <section className="page-title bg-OverMij">
         <img
-          src="../images/bg/home-2.jpeg"
+          src="../images/bg/OverMij.jpeg"
           style={{
             visibility: 'hidden',
             width: '100%',

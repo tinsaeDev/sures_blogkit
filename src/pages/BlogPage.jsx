@@ -50,9 +50,9 @@ export default function BlogPage() {
   return (
     <div>
       <div className="main-wrapper">
-        <section className="page-title bg-1">
+        <section className="page-title bg-BlogPage">
           <img
-            src="../images/bg/home-2.jpeg"
+            src="../images/bg/BlogPage.jpeg"
             style={{
               visibility: 'hidden',
               width: '100%',

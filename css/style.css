@@ -582,6 +582,73 @@ ul.dropdown-menu li {
   position: relative;
 }
 
+.bg-SingleBlog {
+  background: url('../images/bg/SingleBlog.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
+.bg-ReferentiesPage {
+  background: url('../images/bg/ReferentiesPage.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
+.bg-Opdrachten {
+  background: url('../images/bg/Opdrachten.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
+
+.bg-OverMij {
+  background: url('../images/bg/OverMij.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
+
+
+.bg-Dienstverlening {
+  background: url('../images/bg/Dienstverlening.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
+.bg-ContactPage {
+  background: url('../images/bg/ContactPage.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
+.bg-BlogPage {
+  background: url('../images/bg/BlogPage.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
+.bg-BlogAdmin {
+  background: url('../images/bg/BlogAdmin.jpeg') no-repeat;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
+  position: relative;
+}
+
 .bg-2 {
   background: url('../images/bg/home-5.jpg');
   background-size: cover;

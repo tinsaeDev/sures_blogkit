@@ -18,9 +18,9 @@ export default function ContactPage() {
   };
   return (
     <div className="main-wrapper ">
-      <section className="page-title bg-1">
+      <section className="page-title bg-ContactPage">
         <img
-          src="../images/bg/home-2.jpeg"
+          src="../images/bg/ContactPage.jpeg"
           style={{
             visibility: 'hidden',
             width: '100%',
