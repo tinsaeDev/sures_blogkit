@@ -11,13 +11,14 @@ const TimelineCarousel = () => {
         {
           heading: "tk co ltd",
           title: "November 2019 – Juni 2020",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgk  , uu mm  , kkkddfgghh)",
+            "jfjfjjfjjf jn  ,  fjfjfjfjfjfj;",
+            "gfgfhfhhhj, hfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
       ],
@@ -28,25 +29,27 @@ const TimelineCarousel = () => {
         {
           heading: "tk co ltd",
           title: "November 2019 – Juni 2020",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhf jgkgkg  kkkkddfgghh)",
+            "jfjfjjfjj fjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
         {
           heading: "raj textile account",
           title: "september 2020 – december 2020",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
       ],
@@ -57,25 +60,27 @@ const TimelineCarousel = () => {
         {
           heading: "Abc group co ltd",
           title: "november 2020 – juni 21",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
         {
           heading: "Abc1 group co ",
           title: "september  2021 – jan 22",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
       ],
@@ -86,37 +91,40 @@ const TimelineCarousel = () => {
         {
           heading: "Abc1 group co ",
           title: "september  2021 – jan 22",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
         {
           heading: "defc up co ",
           title: "september 2022 – december 2022",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
         {
           heading: "sss up co ",
           title: "oktober 2022 – januari 2023",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
       ],
@@ -127,30 +135,33 @@ const TimelineCarousel = () => {
         {
           heading: "sss up co ",
           title: "oktober 2022 – januari 2023",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
         {
           heading: "dfedd cv",
           title: "november 2023 – december 2023",
+          extraline: "gffhfhdfhf",
           content: [
-            "- degfhfjgkgkgkkkkddfgghh)",
-            "- jfjfjjfjjfjfjfjfjfjfjfj",
-            "- gfgfhfhhhjhfhfhjfjfj",
-            "- hfhhfhhfhhfhhfhhfhfhfh",
-            "- hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "- fhfhfhfhhhfhfhfhfhfhfhfh",
+            "degfhfjgkgkgkkkkddfgghh)",
+            "jfjfjjfjjfjfjfjfjfjfjfj;",
+            "gfgfhfhhhjhfhfhjfjfj",
+            "hfhhfhhfhhfhhfhhfhfhfh",
+            "hfhfhhfhhfhfhhhfhhfhhfhfh",
+            "fhfhfhfhhhfhfhfhfhfhfhfh",
           ],
         },
         {
           heading: "ssss cv",
           title: "september 2023 – heden",
+          extraline: "gffhfhdfhf",
           content: ["dead", "sldkfj", "sldkfj", "sldkfjslkfj", "sldkfjslkfj"],
         },
       ],
@@ -253,11 +264,14 @@ const TimelineCarousel = () => {
               <div key={item.heading} className="mb-3">
                 <h5 className="mb-0">{item.title}</h5>
                 <h4>{item.heading}</h4>
-                {item.content.map((item1, index) => (
-                  <p key={index} style={{ marginBottom: 0 }}>
-                    {item1}
-                  </p>
-                ))}
+                <p style={{ marginBottom: 0 }}>{item.extraline}</p>
+                <ul>
+                  {item.content.map((item1, index) => (
+                    <li key={index} style={{ marginBottom: 0 }}>
+                      {item1}
+                    </li>
+                  ))}
+                </ul>
                 {/* <p>{item.content}</p> */}
               </div>
             ))}
