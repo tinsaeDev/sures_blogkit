@@ -566,10 +566,12 @@ ul.dropdown-menu li {
 
 .bg-1 {
   background: url("../images/bg/home-2.jpeg") no-repeat;
-  background-size: cover;
-  background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  background-size: 100% auto;
+  background-position: 0% 0%;
+  /* padding: 200px 0 280px 0; */
   position: relative;
+  min-height: 57rem;
+  
 }
 
 .bg-2 {
