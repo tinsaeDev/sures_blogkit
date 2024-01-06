@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, { useEffect, useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const TimelineCarousel = () => {
   const yeardata = [
@@ -9,16 +9,16 @@ const TimelineCarousel = () => {
       year: 2019,
       content: [
         {
-          heading: "tk co ltd",
-          title: "November 2019 – Juni 2020",
-          extraline: "gffhfhdfhf",
+          heading: 'tk co ltd',
+          title: 'November 2019 – Juni 2020',
+          extraline: 'OOOOOOOOOOOO',
           content: [
-            "degfhfjgkgkgk  , uu mm  , kkkddfgghh)",
-            "jfjfjjfjjf jn  ,  fjfjfjfjfjfj;",
-            "gfgfhfhhhj, hfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhfjgkgkgk  , uu mm  , kkkddfgghh)',
+            'jfjfjjfjjf jn  ,  fjfjfjfjfjfj;',
+            'gfgfhfhhhj, hfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
       ],
@@ -27,29 +27,29 @@ const TimelineCarousel = () => {
       year: 2020,
       content: [
         {
-          heading: "tk co ltd",
-          title: "November 2019 – Juni 2020",
-          extraline: "gffhfhdfhf",
+          heading: 'tk co ltd',
+          title: 'November 2019 – Juni 2020',
+          extraline: 'LLLLLLLLLLL',
           content: [
-            "degfhf jgkgkg  kkkkddfgghh)",
-            "jfjfjjfjj fjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhf jgkgkg  kkkkddfgghh)',
+            'jfjfjjfjj fjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
         {
-          heading: "raj textile account",
-          title: "september 2020 – december 2020",
-          extraline: "gffhfhdfhf",
+          heading: 'raj textile account',
+          title: 'september 2020 – december 2020',
+          extraline: 'GGGGGGGGGGG',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhfjgkgkgkkkkddfgghh)',
+            'jfjfjjfjjfjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
       ],
@@ -58,29 +58,29 @@ const TimelineCarousel = () => {
       year: 2021,
       content: [
         {
-          heading: "Abc group co ltd",
-          title: "november 2020 – juni 21",
-          extraline: "gffhfhdfhf",
+          heading: 'Abc group co ltd',
+          title: 'november 2020 – juni 21',
+          extraline: 'KKKKKKKKKKKKK',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhfjgkgkgkkkkddfgghh)',
+            'jfjfjjfjjfjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
         {
-          heading: "Abc1 group co ",
-          title: "september  2021 – jan 22",
-          extraline: "gffhfhdfhf",
+          heading: 'Abc1 group co ',
+          title: 'september  2021 – jan 22',
+          extraline: 'AAAAAAAAAA',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'sssssssssssssssssss)',
+            'jfjfjjfjjfjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
       ],
@@ -89,42 +89,46 @@ const TimelineCarousel = () => {
       year: 2022,
       content: [
         {
-          heading: "Abc1 group co ",
-          title: "september  2021 – jan 22",
-          extraline: "gffhfhdfhf",
+          heading: 'Abc1 group co ',
+          title: 'september  2021 – jan 22',
+          extraline: 'HHHHHHHHHHHHHHHH',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            `11111111111111111111111
+            22222222222222222222
+            333333333333333333333
+            444444444444444444`,
+            `AAAAAAAAAAAAAAAAAAAAAA
+            BBBBBBBBBBBBBBBBBBB`,
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
         {
-          heading: "defc up co ",
-          title: "september 2022 – december 2022",
-          extraline: "gffhfhdfhf",
+          heading: 'defc up co ',
+          title: 'september 2022 – december 2022',
+          extraline: 'BBBBBBBBBBBBB',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhfjgkgkgkkkkddfgghh)',
+            'jfjfjjfjjfjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
         {
-          heading: "sss up co ",
-          title: "oktober 2022 – januari 2023",
-          extraline: "gffhfhdfhf",
+          heading: 'sss up co ',
+          title: 'oktober 2022 – januari 2023',
+          extraline: 'VVVVVVVVV',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhfjgkgkgkkkkddfgghh)',
+            'jfjfjjfjjfjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
       ],
@@ -133,36 +137,36 @@ const TimelineCarousel = () => {
       year: 2023,
       content: [
         {
-          heading: "sss up co ",
-          title: "oktober 2022 – januari 2023",
-          extraline: "gffhfhdfhf",
+          heading: 'sss up co ',
+          title: 'oktober 2022 – januari 2023',
+          extraline: 'IIIIIIIIIIIII',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhfjgkgkgkkkkddfgghh)',
+            'jfjfjjfjjfjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
         {
-          heading: "dfedd cv",
-          title: "november 2023 – december 2023",
-          extraline: "gffhfhdfhf",
+          heading: 'dfedd cv',
+          title: 'november 2023 – december 2023',
+          extraline: 'PPPPPPPPPPPP',
           content: [
-            "degfhfjgkgkgkkkkddfgghh)",
-            "jfjfjjfjjfjfjfjfjfjfjfj;",
-            "gfgfhfhhhjhfhfhjfjfj",
-            "hfhhfhhfhhfhhfhhfhfhfh",
-            "hfhfhhfhhfhfhhhfhhfhhfhfh",
-            "fhfhfhfhhhfhfhfhfhfhfhfh",
+            'degfhfjgkgkgkkkkddfgghh)',
+            'jfjfjjfjjfjfjfjfjfjfjfj;',
+            'gfgfhfhhhjhfhfhjfjfj',
+            'hfhhfhhfhhfhhfhhfhfhfh',
+            'hfhfhhfhhfhfhhhfhhfhhfhfh',
+            'fhfhfhfhhhfhfhfhfhfhfhfh',
           ],
         },
         {
-          heading: "ssss cv",
-          title: "september 2023 – heden",
-          extraline: "gffhfhdfhf",
-          content: ["dead", "sldkfj", "sldkfj", "sldkfjslkfj", "sldkfjslkfj"],
+          heading: 'ssss cv',
+          title: 'september 2023 – heden',
+          extraline: 'ZZZZZZZZZZZZZZZ',
+          content: ['dead', 'sldkfj', 'sldkfj', 'sldkfjslkfj', 'sldkfjslkfj'],
         },
       ],
     },
@@ -216,11 +220,11 @@ const TimelineCarousel = () => {
 
   const getClassName = (index) => {
     if (index === activeIndex) {
-      return "active-slide";
+      return 'active-slide';
     } else if (index - 1 === activeIndex || index + 1 === activeIndex) {
-      return "adjacent";
+      return 'adjacent';
     } else {
-      return "inactive";
+      return 'inactive';
     }
   };
 
@@ -230,16 +234,10 @@ const TimelineCarousel = () => {
         {yeardata.map((year, index) => (
           <div className="timeline-slide1" key={index}>
             <div className="slide-border"></div>
-            <div
-              className={`year ${getClassName(index)}`}
-              onClick={() => handleSlideClick(index)}
-            >
+            <div className={`year ${getClassName(index)}`} onClick={() => handleSlideClick(index)}>
               <span
                 className={`text-year ${
-                  (activeIndex + 1 === index ||
-                    activeIndex === index ||
-                    activeIndex - 1 === index) &&
-                  "active-year"
+                  (activeIndex + 1 === index || activeIndex === index || activeIndex - 1 === index) && 'active-year'
                 }`}
               >
                 {year.year}
@@ -255,9 +253,9 @@ const TimelineCarousel = () => {
           <div
             className="p-4  mb-5"
             style={{
-              borderRadius: "35px",
-              border: "3px solid #65A8DC",
-              width: "100%",
+              borderRadius: '35px',
+              border: '3px solid #65A8DC',
+              width: '100%',
             }}
           >
             {yeardata[activeIndex].content.map((item) => (
@@ -266,11 +264,9 @@ const TimelineCarousel = () => {
                 <h4>{item.heading}</h4>
                 <p style={{ marginBottom: 0 }}>{item.extraline}</p>
                 <ul>
-                  {item.content.map((item1, index) => (
-                    <li key={index} style={{ marginBottom: 0 }}>
-                      {item1}
-                    </li>
-                  ))}
+                  {item.content.map((item1, index) => {
+                    return <LiWithBR key={index} text={item1} />;
+                  })}
                 </ul>
                 {/* <p>{item.content}</p> */}
               </div>
@@ -281,5 +277,25 @@ const TimelineCarousel = () => {
     </div>
   );
 };
+
+function LiWithBR(props) {
+  const { text } = props;
+  const lines = text.split('\n');
+
+  return (
+    <li style={{ marginBottom: 0 }}>
+      {' '}
+      OO:{' '}
+      {lines.map((line, index) => {
+        return (
+          <>
+            <span>{line}</span>
+            {index < lines.length - 1 ? <br /> : null}
+          </>
+        );
+      })}
+    </li>
+  );
+}
 
 export default TimelineCarousel;
